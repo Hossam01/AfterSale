@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#5908CC</color>
+    <color name="colorPrimaryDark">#6200EE</color>
+    <color name="colorAccent">#605959</color>
+    <color name="main_bg">#37c4c6</color>
+
+    <color name="red">#F15050</color>
+    <color name="greenblue">#228B22</color>
+    <color name="red_dark">#d43c3c</color>
+    <color name="orange">#FFA500</color>
+    <color name="yellow">#EED45A</color>
+    <color name="yellow_dark">#d4bb46</color>
+    <color name="lime">#BCE24A</color>
+    <color name="lime_dark">#9dbf35</color>
+    <color name="greencolor">#48D26B</color>
+    <color name="green_dark">#36b957</color>
+    <color name="blue">#48DFE1</color>
+    <color name="blue_dark">#37c4c6</color>
+    <color name="darkblue">#5A9CEE</color>
+    <color name="darkblue_dark">#417eca</color>
+    <color name="blueverydark">#0000FF</color>
+    <color name="darkviolet">#7E50F1</color>
+    <color name="darkviolet_dark">#683dd4</color>
+    <color name="violetdark">#9932CC</color>
+    <color name="violet">#D65AEE</color>
+    <color name="violet_dark">#b33ec9</color>
+    <color name="gray">#d5d5d5</color>
+    <color name="layout_bg_color">#8996C5</color>
+    <color name="txt_color">#FFFFFF</color>
+    <color name="txt_color_hint">#FFFFFF</color>
+    <color name="third_white">#FFFFFF</color>
+    <color name="secod_red">#E63124</color>
+
+    <color name="show_btn">#45C57F</color>
+
+    <!--used in main driver -->
+    <color name="textcolor_btns">#FFFFFF</color>
+
+    <!--for bottomview of item of recycler  -->
+    <color name="view_color">#0000FF</color>
+
+    <color name="color_for_confirm_passcode_bg">#0993CA</color>
+    <color name="count_txt_bg">#A88F8D</color>
+    <color name="linear_header_bg">#CC275F</color>
+    <color name="user_icone_bg">#E6E3E3</color>
+
+
+    <color name="near_black">#222222</color>
+
+    <color name="zebra_blue">#00769F</color>
+
+    <color name="zebra_yellow">#FFD200</color>
+    <color name="error_color">#FFBB86FC</color>
+    <color name="light_gray">#CCCCCC</color>
+    <color name="endofday_header_bg">#AAA4A3</color>
+
+
+    <color name="main_background_color">#36BEF4</color>
+</resources>

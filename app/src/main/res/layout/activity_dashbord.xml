@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashbordActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <RelativeLayout
+                        android:id="@+id/rellay_timeline"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="0.65"
+                        android:background="@color/red"
+                        android:clickable="true"
+                        android:foreground="?attr/selectableItemBackground">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true">
+
+                            <ImageView
+                                android:id="@+id/imgView1"
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_centerHorizontal="true"
+                                android:adjustViewBounds="true"
+                                android:padding="8dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/paper_plane"
+                                app:tint="@color/white" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/imgView1"
+                                android:layout_centerHorizontal="true"
+                                android:text="@string/sendMail"
+                                android:layout_marginTop="5dp"
+                                android:textSize="17sp"
+                                android:textColor="@color/white"
+                                android:typeface="serif"
+                                />
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rellay_friends"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.55"
+                        android:background="@color/darkviolet"
+                        android:clickable="true"
+                        android:foreground="?attr/selectableItemBackground">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true">
+
+                            <ImageView
+                                android:id="@+id/imgView2"
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_centerHorizontal="true"
+                                android:adjustViewBounds="true"
+                                android:padding="8dp"
+                                android:scaleType="centerCrop"
+                                app:tint="@color/white"
+                                android:src="@drawable/translation"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/imgView2"
+                                android:layout_centerHorizontal="true"
+                                android:text="@string/Language"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/white"
+                                android:textSize="17sp"
+                                android:typeface="serif"
+                                />
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <RelativeLayout
+                        android:id="@+id/rellay_chat"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.55"
+                        android:background="@color/lime"
+                        android:clickable="true"
+                        android:foreground="?attr/selectableItemBackground">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true">
+
+                            <ImageView
+                                android:id="@+id/imgView3"
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_centerHorizontal="true"
+                                android:adjustViewBounds="true"
+                                android:padding="8dp"
+                                android:scaleType="centerCrop"
+                                app:tint="@color/white"
+                                android:src="@drawable/cloudcomputing"
+                                 />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/imgView3"
+                                android:layout_centerHorizontal="true"
+                                android:text="@string/Upload"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/white"
+                                android:textSize="17sp"
+                                android:typeface="serif"/>
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

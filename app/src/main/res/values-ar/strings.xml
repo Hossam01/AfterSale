@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">خدمه بعد البيع</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="enter_your_name">اسم المستخدم</string>
+    <string name="enter_your_password">كلمة المرور</string>
+    <string name="Delivery_date">ميعاد التسليم</string>
+    <string name="Shipping_cost">تكلفه الشحن</string>
+    <string name="purchase_date">تاريخ الشراء</string>
+    <string name="customer_code">كود العميل</string>
+    <string name="aftersale_invoice">رقم الفاتوره</string>
+    <string name="shot">التقاط الصور</string>
+    <string name="send">ارسال</string>
+    <string name="save">حفظ</string>
+    <string name="pick">اختار الصوره</string>
+    <string name="sendMail">ارسال البريد الالكتروني</string>
+    <string name="Language">اللغه</string>
+    <string name="Upload">تحميل الفواتير</string>
+    <string name="english">انجليزي</string>
+    <string name="arabic">عربي</string>
+
+
+
+
+
+
+
+
+
+</resources>

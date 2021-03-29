@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">AfterSale</string>
+    <string name="login">Login</string>
+    <string name="enter_your_name">User Name</string>
+    <string name="enter_your_password">Password</string>
+    <string name="Delivery_date">Delivery_date</string>
+    <string name="Shipping_cost">Shipping_cost</string>
+    <string name="purchase_date">purchase_date</string>
+    <string name="customer_code">customer_code</string>
+    <string name="aftersale_invoice">aftersale_invoice</string>
+    <string name="shot">Take Picture</string>
+
+    <string name="send">send</string>
+    <string name="save">save</string>
+    <string name="pick">pick picture</string>
+
+    <string name="sendMail">Send Mail</string>
+    <string name="Language">Language</string>
+    <string name="Upload">Upload Invoices</string>
+    <string name="english">ُEnglish</string>
+    <string name="arabic">Arabic</string>
+
+
+</resources>
